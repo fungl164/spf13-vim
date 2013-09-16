@@ -1,0 +1,69 @@
+g:override_spf13_bundles = 1
+
+" ================ Package Management ====================
+Bundle 'gmarik/vundle'
+
+
+" ================ Visual Look & Feel ====================
+Bundle 'Lokaltog/vim-powerline'
+Bundle 'bling/vim-airline'
+Bundle 'godlygeek/csapprox'
+Bundle 'airblade/vim-gitgutter'
+
+
+" ================ File Management ====================
+Bundle 'scrooloose/nerdtree'
+Bundle 'jistr/vim-nerdtree-tabs'
+Bundle 'kien/ctrlp.vim'
+Bundle 'tpope/vim-fugitive'
+
+
+" ================ Editing ====================
+Bundle 'godlygeek/tabular'
+Bundle 'Lokaltog/vim-easymotion'
+Bundle 'tomtom/tcomment_vim'
+Bundle 'nathanaelkane/vim-indent-guides'
+Bundle 'terryma/vim-multiple-cursors'
+
+
+" ================ Snippets & AutoComplete ====================
+Bundle 'scrooloose/syntastic'
+Bundle 'Valloric/YouCompleteMe'
+Bundle 'marijnh/tern_for_vim'
+Bundle 'tpope/vim-surround'
+Bundle 'scrooloose/nerdcommenter'
+
+
+" ================ Shell Related ====================
+" Bundle 'Shougo/vimproc'
+" Bundle 'thinca/vim-quickrun'
+" Bundle 'benmills/vimux'
+
+
+" ================ Miscellaneous ====================
+" Bundle 'mattn/gist-vim'
+" Bundle 'tell-k/vim-browsereload-mac'
+" Bundle 'jaxbot/brolink.vim'
+" Bundle 'L9'
+
+
+" ================ HTML / CSS Syntax ====================
+" Bundle 'mattn/zencoding-vim'
+" Bundle 'mattn/emmet-vim'
+" Bundle 'tpope/vim-markdown'
+" Bundle 'tpope/vim-haml'
+
+
+" ================ Javascript Syntax ====================
+Bundle 'jelera/vim-javascript-syntax'
+Bundle 'maksimr/vim-jsbeautify'
+Bundle 'einars/js-beautify'
+Bundle 'sleistner/vim-jshint'
+" Bundle 'walm/jshint.vim'
+Bundle 'kchmck/vim-coffee-script'
+
+
+" ================ Ruby / RoR Syntax ====================
+Bundle 'vim-ruby/vim-ruby'
+Bundle 'tpope/vim-rails'
+Bundle 'skwp/vim-rspec'
